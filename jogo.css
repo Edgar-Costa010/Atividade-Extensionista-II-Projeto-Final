@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:#A34743;
+   
+    background-image: url('./imagens/plantio.jpg');
+}
+.container {
+    text-align: center;
+    background-color: #CBBBA7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    border: 2px solid #8B7D70;
+}
+
+.saudacao{
+    font-size: 1.5em;
+    color: #60041A;
+    margin-top: 10px;
+}
+
+h1{
+    color: #020202;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+h2 {
+    color: red;
+    background-color: #331F19
+}
+p {
+    color: #331F19;
+    font-size: 1.1em;
+}
+button {
+    background-color: #60041A;
+    color: #F4F0EA;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #A34743;
+}
+
+li, ul{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #020202;
+    background-color: lightgreen;
+    text-align: center;
+    margin: 1;
+    padding: 1;
+    border: 1;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    list-style: none;
+}
+
+.botaoExcluir{
+    border-radius: 0cm;
+    cursor: pointer;
+    background-color: red;
+}
+
+.botaoEditar{
+    border-radius: 0cm;
+    cursor: pointer;
+    background-color: blue;
+}

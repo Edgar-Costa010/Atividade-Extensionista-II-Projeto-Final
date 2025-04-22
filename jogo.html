@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="jogo.css">
+    <title>Jogo prático</title>
+
+</head>
+<body>
+
+    <div class="container">
+        <h1>JOGO PRÁTICO</h1>
+
+        <input type="text" id="aluno" placeholder="Digite seu nome">
+        
+        <div class="saudacao">Olá, estudante!</div>
+        
+        <P>Vamos relembrar as boas ações que devemos ter contra o aquecimento global</P>
+
+        <p>Digite abaixo as atitudes que podemos ter para reduzir o aquecimento global</p>
+
+        <Input type="text" id="acoesBeneficas" placeholder="Digite a frase"></Input><br><br>
+
+        <button style="height: 40px; background-color: black;" onclick=" adicionarAcao()">Confirmar</button><br><br>
+
+        <button onclick= "excluirLista()">APAGAR TUDO</button>
+
+        <p id="texto"></p>
+
+        <ul id="listaAcoes"></ul>
+
+    </div>
+
+
+    <script src="jogo.js"></script>
+</body>
+</html>
